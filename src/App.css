@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
+#root {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.body {
+  background-image: url("./assets/bgimage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  width: 100% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .body {
+    flex-direction: column !important;
+  }
+}

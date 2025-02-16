@@ -1,0 +1,148 @@
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.notificationCount {
+  position: relative;
+  top: -35px;
+  right: -15px;
+  background-color: blue;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.header {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.roomsContainer {
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.room {
+  background-color: #e9e8e8ee;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.roomTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tablesGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.table {
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.occupied {
+  background-color: #e57373;
+}
+
+.available {
+  background-color: #81c784;
+}
+
+.tableInfo {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.footer {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footerText {
+  font-size: 16px;
+}
+
+.footerIcon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .tablesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .tablesGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.modalContent {
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  overflow-y: auto;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+@media (max-width: 600px) {
+  .modalContent {
+    width: 95%;
+  }
+}

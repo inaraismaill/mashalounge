@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.candidateDetailTable {
+  border-radius: 12px;
+  padding: 20px 30px;
+  border: 1px solid var(--LightMode-Grey-Grey-200, #f1f1f4);
+  background: #fff;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.03);
+}
+.candidateDetailTable h2 {
+  color: var(--LightMode-Grey-Grey-900, #071437);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.candidateDetailTable thead tr th {
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.13px;
+}
+.candidateDetailTable table th,
+td {
+  border: 1px solid var(--LightMode-Grey-Grey-200, #f1f1f4);
+}
+.candidateDetailTable .id {
+  color: #1b84ff;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.candidateDetailTable .id svg {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+.candidateDetailTable .cashback {
+  border-radius: 4px;
+  border: 1px solid rgba(23, 198, 83, 0.2);
+  background: #eafff1;
+  padding: 5px 6px;
+  color: #04b440;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 12px;
+}
+.candidateDetailTable .percent {
+  border-radius: 4px;
+  border: 1px solid
+    var(--LightMode-Warning-Warning-Clarity-20, rgba(246, 177, 0, 0.2));
+  background: var(--LightMode-Warning-Warning-Light, #fff8dd);
+  padding: 5px 6px;
+  color: #dfa000;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 12px;
+}
+.candidateDetailTable .editBtn {
+  padding: 9px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 6px;
+  border: 1px solid var(--LightMode-Grey-Grey-300, #dbdfe9);
+  background: #fff;
+  color: var(--LightMode-Grey-Grey-700, #4b5675);
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+/* OrderList */
+
+.orderListTable {
+  border-radius: 12px;
+  padding: 20px 30px;
+  border: 1px solid var(--LightMode-Grey-Grey-200, #f1f1f4);
+  background: #fff;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.03);
+  margin-top: 30px;
+}
+
+.orderListTable {
+  border-radius: 12px;
+  padding: 20px 30px;
+  border: 1px solid var(--LightMode-Grey-Grey-200, #f1f1f4);
+  background: #fff;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.03);
+}
+.orderListTable h2 {
+  color: var(--LightMode-Grey-Grey-900, #071437);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+.orderListTable thead tr th {
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.13px;
+}
+.orderListTable table th,
+td {
+  border: 1px solid var(--LightMode-Grey-Grey-200, #f1f1f4);
+}
+.orderTableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orderListTable .orderNum {
+  border-radius: 6px;
+  border: 1px solid #dbdfe9;
+  color: #4b5675;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 5px;
+}
+.orderListTable .orderDoc {
+  border-radius: 6px;
+  background: #1b85ffbd;
+  padding: 6px 8px;
+  color: white;
+}
+
+.orderListTable .orderEmployeeName {
+  cursor: pointer;
+}
+.orderListTable .orderDate p svg {
+  margin-right: 5px;
+}
+
+.orderListTable .orderCountC {
+  border-radius: 6px;
+  border: 1px solid #dbdfe9;
+  color: #4b5675;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 5px;
+}
+
+.orderListTable .orderAmount {
+  color: var(--LightMode-Warning-Warning-Active, #dfa000);
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 12px;
+  padding: 5px 6px;
+  border-radius: 4px;
+  border: 1px solid
+    var(--LightMode-Warning-Warning-Clarity-20, rgba(246, 177, 0, 0.2));
+  background: var(--LightMode-Warning-Warning-Light, #fff8dd);
+}
+.branch {
+  display: flex !important;
+  width: 200px;
+}
+
+.branch p {
+  text-align: center;
+  font-weight: 600;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid #eafff1;
+  color: white;
+}
+.orderTotal {
+  color: black;
+  font-family: "Inter";
+  line-height: 12px;
+}
+.orderTotal span {
+  border-radius: 6px;
+  border: 1px solid #dbdfe9;
+  color: #4b5675;
+  font-family: "Inter";
+  font-weight: 500;
+  padding: 3px 5px;
+}
+
+.leftPag {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.paginationInfo {
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+
+  /* Body/B-13-14-500 */
+  font-family: "Inter";
+  font-size: 13px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 14px; /* 107.692% */
+  letter-spacing: -0.13px;
+}
+.pagination {
+  display: flex;
+  gap: 3px;
+}
+.pagination button {
+  border: none;
+  background-color: transparent;
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+
+  /* Body/B-13-14-500 */
+  font-family: "Inter";
+  font-size: 13px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 14px; /* 107.692% */
+  letter-spacing: -0.13px;
+}
+
+.activePage {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  padding: 8px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: var(--LightMode-Grey-Grey-200, #f1f1f4) !important;
+  color: black !important;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+}
+
+.activeArrow {
+  color: #4b5675 !important;
+}
+.disabledArrow {
+  color: #c4cada !important;
+}
+
+.option:focus {
+  background-color: #0274d1 !important;
+}
+
+.orderPag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Present Table */
+
+.ActivePresentTable {
+  border-radius: 12px;
+  padding: 20px 30px;
+  border: 1px solid var(--LightMode-Grey-Grey-200, #f1f1f4);
+  background: #fff;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.03);
+}
+
+.ActivePresentTable .ActiveorderNum {
+  border-radius: 6px;
+  border: 1px solid #dbdfe9;
+  color: #4b5675;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 5px;
+}
+
+.ActivePresentTable thead tr th {
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.13px;
+}
+.ActivePresentTable h2 {
+  color: var(--LightMode-Grey-Grey-900, #071437);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+.ActivePresentTable button {
+  color: red;
+  background-color: rgba(255, 0, 0, 0.226);
+  border: 1px solid red;
+}
+
+/* Message Table */
+
+.MessageLogsTable {
+  border-radius: 12px;
+  padding: 20px 30px;
+  border: 1px solid var(--LightMode-Grey-Grey-200, #f1f1f4);
+  background: #fff;
+  box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.03);
+}
+
+.MessageLogsTable .ActiveorderNum {
+  border-radius: 6px;
+  border: 1px solid #dbdfe9;
+  color: #4b5675;
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 5px;
+}
+
+.MessageLogsTable thead tr th {
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.13px;
+}
+.MessageLogsTable h3 {
+  color: var(--LightMode-Grey-Grey-900, #071437);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.leftPag {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.paginationInfo {
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+
+  /* Body/B-13-14-500 */
+  font-family: "Inter";
+  font-size: 13px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 14px; /* 107.692% */
+  letter-spacing: -0.13px;
+}
+.MessagePag {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+}
+.MessageLogsTable table thead tr th:last-child {
+  width: 10%;
+}
+.MessageLogsTable .orderDate p svg {
+  margin-right: 5px;
+}
+.MessageLogsTable .orderDate p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MessageLogsTable .orderDate p:last-child {
+  width: 80%;
+  background-color: rgba(102, 51, 153, 0.251);
+  border-radius: 6px;
+  padding: 3px;
+  color: rebeccapurple;
+  border: 1px solid rebeccapurple;
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.MessageLogsTable .orderDate p:first-child {
+  border-radius: 6px;
+  border: 1px solid var(--LightMode-Warning-Warning-Clarity-20, rgb(246, 0, 0));
+  background: var(--LightMode-Warning-Warning-Light, #ffddddfb);
+  padding: 3px;
+  color: #ff0000;
+  font-family: "Inter";
+  font-weight: 500;
+}

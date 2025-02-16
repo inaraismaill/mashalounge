@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jua&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.TableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TableHeader h3 {
+  color: var(--LightMode-Grey-Grey-900, #071437);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+}
+.TableHeader div div {
+  border-radius: 6px;
+  border: 1px solid var(--LightMode-Grey-Grey-300, #dbdfe9);
+  background: var(--LightMode-Light-Light-Active, #fcfcfc);
+  padding: 5px 8px;
+  border-radius: 20px;
+}
+.TableHeader > div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.TableHeader > div svg {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+  color: #78829d;
+}
+.TableHeader .searchContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 10px;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid var(--LightMode-Grey-Grey-300, #dbdfe9);
+  background: var(--LightMode-Light-Light-Active, #fcfcfc);
+}
+.TableHeader div input {
+  border: none;
+  outline: none;
+}
+
+.allTable table tr th,
+td {
+  text-align: center;
+}
+
+.allTable table thead tr th {
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.13px;
+}
+.allTable table .id {
+  display: flex;
+  padding: 6px 7px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid var(--LightMode-Grey-Grey-300, #dbdfe9);
+  background: #fff;
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+}
+.searchIcon {
+  cursor: pointer;
+}
+
+.allTable .circle {
+  font-size: 20px;
+  text-align: center;
+}
+
+.allTable .TruefromWho {
+  display: flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 30px;
+  border: 1px solid
+    var(--LightMode-Success-Success-Clarity-20, rgba(23, 198, 83, 0.2));
+  background: var(--LightMode-Success-Success-Light, #eafff1);
+  color: var(--LightMode-Success-Success-Active, #04b440);
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.allTable .messageBox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.allTable .messageBox p {
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.allTable .FalsefromWho {
+  display: flex;
+  padding: 5px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 30px;
+  border: 1px solid
+    var(--LightMode-Danger-Danger-Clarity-20, rgba(248, 40, 90, 0.2));
+  background: var(--LightMode-Danger-Danger-Light, #ffeef3);
+  color: var(--LightMode-Danger-Danger-Active, #d81a48);
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.allTable .nameNumber p:last-child {
+  color: #0274d1;
+  cursor: pointer;
+}
+
+.clearIcon {
+  cursor: pointer;
+}
+
+.thead {
+  display: flex !important;
+  align-items: center;
+  gap: 4px;
+}
+.thead p {
+  margin: 0;
+}
+.thead span {
+  display: flex;
+  flex-direction: column;
+  gap: 3px !important;
+}
+.thead span svg {
+  cursor: pointer;
+}
+
+/* Paginations */
+.paginationContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.paginationControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+  font-family: "Inter";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: -0.13px;
+}
+
+.paginationControls select {
+  border-radius: 6px;
+  border: 1px solid var(--LightMode-Grey-Grey-300, #dbdfe9);
+  background: var(--LightMode-Light-Light-Active, #fcfcfc);
+  display: flex;
+  padding: 6px 8px;
+  align-items: center;
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+}
+
+.leftPag {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.paginationInfo {
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+
+  /* Body/B-13-14-500 */
+  font-family: "Inter";
+  font-size: 13px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 14px; /* 107.692% */
+  letter-spacing: -0.13px;
+}
+.pagination {
+  display: flex;
+  gap: 3px;
+}
+.pagination button {
+  border: none;
+  background-color: transparent;
+  color: var(--LightMode-Grey-Grey-600, #78829d);
+
+  /* Body/B-13-14-500 */
+  font-family: "Inter";
+  font-size: 13px;
+  /* font-style: normal; */
+  font-weight: 500;
+  line-height: 14px; /* 107.692% */
+  letter-spacing: -0.13px;
+}
+
+.activePage {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  padding: 8px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: var(--LightMode-Grey-Grey-200, #f1f1f4) !important;
+  color: black !important;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+}
+
+.activeArrow {
+  color: #4b5675 !important;
+}
+.disabledArrow {
+  color: #c4cada !important;
+}
+
+.option:focus {
+  background-color: #0274d1 !important;
+}
+
+/* HOVERS */
+
+.TableHeader > div svg:hover {
+  transform: rotate(180deg);
+}

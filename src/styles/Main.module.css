@@ -1,0 +1,30 @@
+.main {
+  width: 100%;
+}
+
+.mainFragment {
+  margin-left: 18%;
+  width: 100%;
+  padding: 80px 30px;
+  transition: margin-left 0.3s ease-out;
+}
+
+.collapsedMain {
+  margin-left: 8%;
+  width: 90%;
+  padding: 80px 30px;
+  transition: margin-left 0.3s ease-out;
+}
+
+.loginPage {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .mainFragment {
+    margin-left: 0;
+    padding: 30px 10px;
+  }
+
+}
